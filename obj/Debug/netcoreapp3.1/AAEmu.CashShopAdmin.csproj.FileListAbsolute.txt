@@ -1,0 +1,15 @@
+C:\AAEmu.CashShopAdmin\AAEmu.CashShopAdmin\bin\Debug\netcoreapp3.1\AAEmu.CashShopAdmin.exe
+C:\AAEmu.CashShopAdmin\AAEmu.CashShopAdmin\bin\Debug\netcoreapp3.1\AAEmu.CashShopAdmin.deps.json
+C:\AAEmu.CashShopAdmin\AAEmu.CashShopAdmin\bin\Debug\netcoreapp3.1\AAEmu.CashShopAdmin.runtimeconfig.json
+C:\AAEmu.CashShopAdmin\AAEmu.CashShopAdmin\bin\Debug\netcoreapp3.1\AAEmu.CashShopAdmin.runtimeconfig.dev.json
+C:\AAEmu.CashShopAdmin\AAEmu.CashShopAdmin\bin\Debug\netcoreapp3.1\AAEmu.CashShopAdmin.dll
+C:\AAEmu.CashShopAdmin\AAEmu.CashShopAdmin\bin\Debug\netcoreapp3.1\AAEmu.CashShopAdmin.pdb
+C:\AAEmu.CashShopAdmin\AAEmu.CashShopAdmin\obj\Debug\netcoreapp3.1\AAEmu.CashShopAdmin.csprojAssemblyReference.cache
+C:\AAEmu.CashShopAdmin\AAEmu.CashShopAdmin\obj\Debug\netcoreapp3.1\AAEmu.CashShopAdmin.Form1.resources
+C:\AAEmu.CashShopAdmin\AAEmu.CashShopAdmin\obj\Debug\netcoreapp3.1\AAEmu.CashShopAdmin.csproj.GenerateResource.cache
+C:\AAEmu.CashShopAdmin\AAEmu.CashShopAdmin\obj\Debug\netcoreapp3.1\AAEmu.CashShopAdmin.AssemblyInfoInputs.cache
+C:\AAEmu.CashShopAdmin\AAEmu.CashShopAdmin\obj\Debug\netcoreapp3.1\AAEmu.CashShopAdmin.AssemblyInfo.cs
+C:\AAEmu.CashShopAdmin\AAEmu.CashShopAdmin\obj\Debug\netcoreapp3.1\AAEmu.CashShopAdmin.csproj.CoreCompileInputs.cache
+C:\AAEmu.CashShopAdmin\AAEmu.CashShopAdmin\obj\Debug\netcoreapp3.1\AAEmu.CashShopAdmin.dll
+C:\AAEmu.CashShopAdmin\AAEmu.CashShopAdmin\obj\Debug\netcoreapp3.1\AAEmu.CashShopAdmin.pdb
+C:\AAEmu.CashShopAdmin\AAEmu.CashShopAdmin\obj\Debug\netcoreapp3.1\AAEmu.CashShopAdmin.genruntimeconfig.cache

@@ -1,0 +1,633 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="newToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABiSURBVDhP7czBCoAwCIBhn80nifnq1cVDddHjQtogtjbb
+        NRJ+BuI+yCMi0UtVp3Rejx0gYjMiiszcRjKwb0eV7UOgPuIBy7z2EQ+w947Yffp6jQeUDQFlP/B94G2P
+        wGgAACcYuZjJw4fhNwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="openToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFUSURBVDhPlZK9SgNBFIXnCcQnkLyA4CPkHayFdBY22mqj
+        paVlxCKCoBaClUQLESNRC4OE4EKQrAbcYBKy62Z/ynHOzUwcMzuyDhzYGc795tw7y2ZXFEVLSZI8p2la
+        kkf5lywO1vZr/MH54LkhwlgQKsZxvC4AfHHjjM+tHOaDiKIKiqDqk0s6rbUJoCDCsy3t5kJh+bJFZrZ8
+        YGhh9ZjgSIeUUgVZPgHot2HfGwbTNu4aTf75UuW+50wVhSMAKwRwugO6aevokYohfQbDzj1/vdj8pffb
+        PfJREpUAEPSOvXoFBdSFBIDgmxIgTr3lEkRPYZMOwDwYDtzrXToATPVp06B9QwB8o4YAipjVr02dqx0T
+        gOHMGm3qNc8nL6EAX33XMP2l8cj7mQEOvMaJYbKpWy/zMAzf6BVE9ADF6CnLnCXMCn8mAUSMEiCYwX/k
+        +/48Y4x9AwxhsnXBwZZBAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="saveToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABzSURBVDhPY/j69WvDt2/f/pODQXoZQIyYCfv+MwTPIQmD
+        9ID0gg3ApoAYjGHAh/cficLD2QBS8SA1AJufkTGyWtoagM5HFwdhmAEfkPMCukJkzcjiIAw24MuXLwbI
+        hqArRNaMLA7CYANAAGYISIA0/O0/AID67ECmnhNDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cutToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE6SURBVDhPhZI9boNAEIU5Qo6QI+QM9Egp6anDAaho3NiN
+        z0LrCKU0nQt6UodIOIifkuy3zKAlWORJI3bnvZk3s7bnouu6l2EY7kTTNE+S9jhrHo2ktzDkRxzHU5Zl
+        U9/3qaQ9zuTg0Eh6C+Mw+b4/hWE46RTqTg4Ojci3aNv2M4oiK9Qp1J0cHBqRb4E4z/PVFK57URSr1R4C
+        B3bVKdSd3K67wji8lmW5TKHu5OBEtg8z9u1wONhCIkkS1rkJ/T94aUa+XgsbQRDsvz4wgjMiDYoul3fb
+        gClczsRZymaQYEeKEOvXDZdDu2pCV4j4LZ7qr2/7eyOu69oGZ5dDS42Uzw1sgRHcmx/75V5VlRU+4mg8
+        juPz0oCux+PJCtI0XVz2OFsMzGXzBrrnHiflM0S8uLp/2b8c95nxvF92DupZ7oH5WgAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="copyToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB4SURBVDhPtc9RCoAgDMbxzuZJAo9pN/KhetkejQWD/HLq
+        oAZ/ItIfbZEhomLFzOt9qDdyMITwKsZYcs5jRIFjP6tS2uYQC0DEXKkF6BrPzL+xAHw3V5oF5NlEPICk
+        iNxzAZgLwP4BsNZFTb5XAOYCcD4DRnWBuahc6R2LWkqXAfkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACaSURBVDhPvZFBCsMgEEU9Qs/k2TyGe6/RrWdxYRPEbcof
+        /MTaZGpa6MDDcfQ/AzFj5ZxvpZR7rXUD6DFrx58LAe/9Zq0V0GPWjo+Lr4GUkgSdcwL6/hy02F4Y8kXy
+        yIswzlUBAwz3Eq5TgiOmBRr/EazLKn8ixqjyIhoFuIC9xpTg7EumBVx7LgtGQgjnAsJLGm+Cb2jxX8qY
+        J5nBJhUlLbsqAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `aaemu_game`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `cash_shop_item`
+--
+
+CREATE TABLE `cash_shop_item` (
+  `id` int(10) UNSIGNED NOT NULL COMMENT 'shop_id',
+  `uniq_id` int(10) UNSIGNED DEFAULT 0 COMMENT '唯一ID',
+  `cash_name` varchar(255) NOT NULL COMMENT '出售名称',
+  `main_tab` tinyint(3) UNSIGNED DEFAULT 1 COMMENT '主分类1-6',
+  `sub_tab` tinyint(3) UNSIGNED DEFAULT 1 COMMENT '子分类1-7',
+  `level_min` tinyint(3) UNSIGNED DEFAULT 0 COMMENT '等级限制',
+  `level_max` tinyint(3) UNSIGNED DEFAULT 0 COMMENT '等级限制',
+  `item_template_id` int(10) UNSIGNED DEFAULT 0 COMMENT '物品模板id',
+  `is_sell` tinyint(1) UNSIGNED DEFAULT 0 COMMENT '是否出售',
+  `is_hidden` tinyint(1) UNSIGNED DEFAULT 0 COMMENT '是否隐藏',
+  `limit_type` tinyint(3) UNSIGNED DEFAULT 0,
+  `buy_count` smallint(5) UNSIGNED DEFAULT 0,
+  `buy_type` tinyint(3) UNSIGNED DEFAULT 0,
+  `buy_id` int(10) UNSIGNED DEFAULT 0,
+  `start_date` datetime DEFAULT '0001-01-01 00:00:00' COMMENT '出售开始',
+  `end_date` datetime DEFAULT '0001-01-01 00:00:00' COMMENT '出售截止',
+  `type` tinyint(3) UNSIGNED DEFAULT 0 COMMENT '货币类型',
+  `price` int(10) UNSIGNED DEFAULT 0 COMMENT '价格',
+  `remain` int(10) UNSIGNED DEFAULT 0 COMMENT '剩余数量',
+  `bonus_type` int(10) UNSIGNED DEFAULT 0 COMMENT '赠送类型',
+  `bouns_count` int(10) UNSIGNED DEFAULT 0 COMMENT '赠送数量',
+  `cmd_ui` tinyint(1) UNSIGNED DEFAULT 0 COMMENT '是否限制一人一次',
+  `item_count` int(10) UNSIGNED DEFAULT 1 COMMENT '捆绑数量',
+  `select_type` tinyint(3) UNSIGNED DEFAULT 0,
+  `default_flag` tinyint(3) UNSIGNED DEFAULT 0,
+  `event_type` tinyint(3) UNSIGNED DEFAULT 0 COMMENT '活动类型',
+  `event_date` datetime DEFAULT '0001-01-01 00:00:00' COMMENT '活动时间',
+  `dis_price` int(10) UNSIGNED DEFAULT 0 COMMENT '当前售价'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='此表来自于代码中的字段并去除重复字段生成。字段名称和内容以代码为准。' ROW_FORMAT=DYNAMIC;
+
+-- 
+-- Dumping data for table `cash_shop_item`
+-- 
+
+INSERT INTO `cash_shop_item` (`id`, `uniq_id`, `cash_name`, `main_tab`, `sub_tab`, `level_min`, `level_max`, `item_template_id`, `is_sell`, `is_hidden`, `limit_type`, `buy_count`, `buy_type`, `buy_id`, `start_date`, `end_date`, `type`, `price`, `remain`, `bonus_type`, `bouns_count`, `cmd_ui`, `item_count`, `select_type`, `default_flag`, `event_type`, `event_date`, `dis_price`) VALUES 
+/*
+   [MAIN TAB] = [Main]
+   [SUB TAB] = [Limited]  
+   [Page] = [1]
+*/
+(20100011, 20100011, '1-1 Glider Companion: Sloth', 1, 1, 0, 0, 30621, 0, 0, 0, 0, 0, 0, '2019-05-01 14:10:08', '2055-06-16 14:10:12', 0, 874, 85, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+(20100010, 20100010, 'Goblin Glider', 1, 1, 0, 0, 27950, 0, 0, 0, 0, 0, 0, '2019-05-01 14:10:08', '2055-06-16 14:10:12', 0, 1600, 100, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 130),
+(20100009, 20100009, 'Legendary Dragon Wings', 1, 1, 0, 0, 29039, 0, 0, 0, 0, 0, 0, '2019-05-01 14:10:08', '2055-06-16 14:10:12', 0, 5000, 500, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 150),
+(20100008, 20100008, 'Prime Workers Compensation', 1, 1, 0, 0, 34071, 0, 0, 0, 0, 0, 0, '2019-05-01 14:10:08', '2055-06-16 14:10:12', 0, 337, 31337, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 1000),
+/*
+   [Page] = [2]
+*/
+(20100007, 20100007, 'Superior Workers Compensation', 1, 1, 0, 0, 34070, 0, 0, 0, 0, 0, 0, '2019-05-01 14:10:08', '2055-06-16 14:10:12', 0, 250, 31337, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 1000),
+(20100006, 20100006, 'Stormwing Pegasus', 1, 1, 0, 0, 30209, 0, 0, 0, 0, 0, 0, '2019-05-01 14:10:08', '2055-06-16 14:10:12', 0, 10000, 100, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 1000),
+(20100005, 20100005, 'Celestial Pegasus', 1, 1, 0, 0, 28736, 0, 0, 0, 0, 0, 0, '2019-05-01 14:10:08', '2055-06-16 14:10:12', 0, 10000, 100, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 1000);
+
+
+/*
+   [MAIN TAB] = [Main]
+   [SUB TAB] = [Limited]  
+   [Page] = [1]
+*/
+(20000001, 20000001, 'Singleton Giftpack', 1, 2, 0, 0, 26637, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 750, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+(20000002, 20000002, 'Couples Sweetheart Giftpack', 1, 2, 0, 0, 26636, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 750, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+(20000003, 20000003, 'Sweetheart Giftpack', 1, 2, 0, 0, 26635, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 750, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+(20000004, 20000004, 'Striped Archeum Supply Crate', 1, 2, 0, 0, 8000075, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 150, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+/*
+   [Page] = [2]
+*/
+(20000005, 20000005, 'Vocation Support Box', 1, 2, 0, 0, 34804, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 750, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+(20000006, 20000006, 'Spooky Chest', 1, 2, 0, 0, 30559, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 150, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+(20000006, 20000006, 'Limited Edition: Skybound Housewarming Gift', 1, 2, 0, 0, 8000046, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 350, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+(20000006, 20000006, 'Hallowtide Giftpack', 1, 2, 0, 0, 8000067, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 450, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+/*
+   [MAIN TAB] = [Main]
+   [SUB TAB] = [New]  
+   [Page] = [1]
+*/
+(20100013, 20100013, '1-3', 1, 3, 0, 0, 29178, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+/*
+   [MAIN TAB] = [Main]
+   [SUB TAB] = [All]  
+   [Page] = [1]
+*/
+(20100014, 20100014, '1-4', 1, 4, 0, 0, 29179, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+/*
+   [MAIN TAB] = [Main]
+   [SUB TAB] = [sub_menu_1_5]  
+   [Page] = [1]
+*/
+(20100015, 20100015, '1-5', 1, 5, 0, 0, 29180, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+/*
+   [MAIN TAB] = [Main]
+   [SUB TAB] = [sub_menu_1_6]  
+   [Page] = [1]
+*/
+(20100016, 20100016, '1-6', 1, 6, 0, 0, 29181, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+/*
+   [MAIN TAB] = [Main]
+   [SUB TAB] = [sub_menu_1_7]  
+   [Page] = [1]
+*/
+(20100017, 20100017, '1-7', 1, 7, 0, 0, 29182, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+/*
+__________________________________________________________________________________________________________________________________________________________________________
+   [MAIN TAB] = [General]
+   [SUB TAB] = [All]  
+   [Page] = [1]
+*/
+(20100018, 20100018, '2-1', 2, 1, 0, 0, 29183, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+(20100019, 20100019, '2-1', 2, 1, 0, 0, 29184, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+/*
+   [MAIN TAB] = [General]
+   [SUB TAB] = [Consumables]  
+   [Page] = [1]
+*/
+(20100020, 20100020, '2-2', 2, 2, 0, 0, 29185, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+/*
+   [MAIN TAB] = [General]
+   [SUB TAB] = [Luxury]  
+   [Page] = [1]
+*/
+(20100021, 20100021, '2-3', 2, 3, 0, 0, 29186, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+/*
+   [MAIN TAB] = [General]
+   [SUB TAB] = [Character]  
+   [Page] = [1]
+*/
+(20100022, 20100022, '2-4', 2, 4, 0, 0, 29187, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+/*
+   [MAIN TAB] = [General]
+   [SUB TAB] = [sub_menu_2_5]  
+   [Page] = [1]
+*/
+(20100023, 20100023, '2-5', 2, 5, 0, 0, 29188, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+/*
+   [MAIN TAB] = [General]
+   [SUB TAB] = [sub_menu_2_6]  
+   [Page] = [1]
+*/
+(20100024, 20100024, '2-6', 2, 6, 0, 0, 29189, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+/*
+   [MAIN TAB] = [General]
+   [SUB TAB] = [sub_menu_2_7]  
+   [Page] = [1]
+*/
+(20100025, 20100025, '2-7', 2, 7, 0, 0, 29190, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+/*
+__________________________________________________________________________________________________________________________________________________________________________
+   [MAIN TAB] = [Travel]
+   [SUB TAB] = [All]  
+   [Page] = [1]
+*/
+(20100026, 20100026, '3-1', 3, 1, 0, 0, 29191, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+/*
+   [MAIN TAB] = [Travel]
+   [SUB TAB] = [Glider]  
+   [Page] = [1]
+*/
+(20100027, 20100027, '3-2', 3, 2, 0, 0, 29192, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+/*
+   [MAIN TAB] = [Travel]
+   [SUB TAB] = [Mount]  
+   [Page] = [1]
+*/
+(20100028, 20100028, '3-3', 3, 3, 0, 0, 29193, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+/*
+   [MAIN TAB] = [Travel]
+   [SUB TAB] = [sub_menu_3_4]  
+   [Page] = [1]
+*/
+(20100029, 20100029, '3-4', 3, 4, 0, 0, 29194, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+/*
+   [MAIN TAB] = [Travel]
+   [SUB TAB] = [sub_menu_3_5]  
+   [Page] = [1]
+*/
+(20100030, 20100030, '3-5', 3, 5, 0, 0, 29195, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+/*
+   [MAIN TAB] = [Travel]
+   [SUB TAB] = [sub_menu_3_6]  
+   [Page] = [1]
+*/
+(20100031, 20100031, '3-6', 3, 6, 0, 0, 29196, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+/*
+   [MAIN TAB] = [Travel]
+   [SUB TAB] = [sub_menu_3_7]  
+   [Page] = [1]
+*/
+(20100032, 20100032, '3-7', 3, 7, 0, 0, 29197, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+/*
+__________________________________________________________________________________________________________________________________________________________________________
+   [MAIN TAB] = [Land]
+   [SUB TAB] = [All]  
+   [Page] = [1]
+*/
+(20100033, 20100033, '4-1', 4, 1, 0, 0, 29198, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+/*
+   [MAIN TAB] = [Travel]
+   [SUB TAB] = [Tax/Sales]  
+   [Page] = [1]
+*/
+(20100034, 20100034, '4-2', 4, 2, 0, 0, 29199, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+/*
+   [MAIN TAB] = [Travel]
+   [SUB TAB] = [Decor]  
+   [Page] = [1]
+*/
+(20100035, 20100035, '4-3', 4, 3, 0, 0, 29200, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+/*
+   [MAIN TAB] = [Travel]
+   [SUB TAB] = [sub_menu_4_4]  
+   [Page] = [1]
+*/
+(20100036, 20100036, '4-4', 4, 4, 0, 0, 29201, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+
+/*
+   [MAIN TAB] = [Travel]
+   [SUB TAB] = [sub_menu_4_5]  
+   [Page] = [1]
+*/
+(20100037, 20100037, '4-5', 4, 5, 0, 0, 29202, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+
+/*
+   [MAIN TAB] = [Travel]
+   [SUB TAB] = [sub_menu_4_6]  
+   [Page] = [1]
+*/
+(20100038, 20100038, '4-6', 4, 6, 0, 0, 29203, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+
+/*
+   [MAIN TAB] = [Travel]
+   [SUB TAB] = [Misc.]  
+   [Page] = [1]
+*/
+(20100039, 20100039, '4-7', 4, 7, 0, 0, 29204, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+
+/*
+__________________________________________________________________________________________________________________________________________________________________________
+   [MAIN TAB] = [Custom]
+   [SUB TAB] = [All]  
+   [Page] = [1]
+*/
+(20100040, 20100040, '5-1', 5, 1, 0, 0, 29205, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+/*
+   [MAIN TAB] = [Custom]
+   [SUB TAB] = [Consume]  
+   [Page] = [1]
+*/
+(20100041, 20100041, '5-2', 5, 2, 0, 0, 29206, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+
+/*
+   [MAIN TAB] = [Custom]
+   [SUB TAB] = [Costume]  
+   [Page] = [1]
+*/
+(20100042, 20100042, '5-3', 5, 3, 0, 0, 29207, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+
+/*
+   [MAIN TAB] = [Custom]
+   [SUB TAB] = [User Image]  
+   [Page] = [1]
+*/
+(20100043, 20100043, '5-4', 5, 4, 0, 0, 29208, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+
+
+/*
+   [MAIN TAB] = [Custom]
+   [SUB TAB] = [sub_menu_5_5]  
+   [Page] = [1]
+*/
+(20100044, 20100044, '5-5', 5, 5, 0, 0, 29209, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+
+
+
+/*
+   [MAIN TAB] = [Custom]
+   [SUB TAB] = [sub_menu_5_6]  
+   [Page] = [1]
+*/
+(20100045, 20100045, '5-6', 5, 6, 0, 0, 29210, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+
+
+
+/*
+   [MAIN TAB] = [Custom]
+   [SUB TAB] = [sub_menu_5_7]  
+   [Page] = [1]
+*/
+(20100046, 20100046, '5-7', 5, 7, 0, 0, 29211, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+/*
+__________________________________________________________________________________________________________________________________________________________________________
+   [MAIN TAB] = [Loyalty]
+   [SUB TAB] = [All]  
+   [Page] = [1]
+*/
+(20100047, 20100047, '6-1', 6, 1, 0, 0, 29212, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+/*
+   [MAIN TAB] = [Loyalty]
+   [SUB TAB] = [Items]  
+   [Page] = [1]
+*/
+(20100048, 20100048, '6-2', 6, 2, 0, 0, 29213, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+/*
+   [MAIN TAB] = [Loyalty]
+   [SUB TAB] = [Consumables]  
+   [Page] = [1]
+*/
+(20100049, 20100049, '6-3', 6, 3, 0, 0, 29214, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+
+
+/*
+   [MAIN TAB] = [Loyalty]
+   [SUB TAB] = [Custom]  
+   [Page] = [1]
+*/
+(20100050, 20100050, '6-4', 6, 4, 0, 0, 29215, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+
+/*
+   [MAIN TAB] = [Loyalty]
+   [SUB TAB] = [Pets]  
+   [Page] = [1]
+*/
+(20100051, 20100051, '6-5', 6, 5, 0, 0, 29216, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+
+
+/*
+   [MAIN TAB] = [Loyalty]
+   [SUB TAB] = [sub_menu_6_6]  
+   [Page] = [1]
+*/
+(20100052, 20100052, '6-6', 6, 6, 0, 0, 29217, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0),
+
+
+
+
+/*
+   [MAIN TAB] = [Loyalty]
+   [SUB TAB] = [Misc.]  
+   [Page] = [1]
+*/
+(20100053, 20100053, '6-7', 6, 7, 0, 0, 29218, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', '0001-01-01 00:00:00', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '0001-01-01 00:00:00', 0);
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `cash_shop_item`
+--
+ALTER TABLE `cash_shop_item`
+  ADD PRIMARY KEY (`id`) USING BTREE;
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `cash_shop_item`
+--
+ALTER TABLE `cash_shop_item`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'shop_id', AUTO_INCREMENT=20100054;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>152</value>
+  </metadata>
+</root>
