@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DIjUZ5qHE+JNlzdnws6UOSpixZozU9IvMySg/td4Yz0J26Gz322oL+q1zPXah4jq+Gx3jQVQlprLGa5d3ZBJQg==",
+  "dgSpecHash": "OTw5ytJiZTxo/KDRS/pygQTAcoxQjqlikre2ikA+BFn8qZ9vaaX3tKBICblr40SVBmJxhJSp1tHwwzUv0vnqyg==",
   "success": true,
-  "projectFilePath": "C:\\AAEmu.CashShopAdmin\\AAEmu.CashShopAdmin\\AAEmu.CashShopAdmin.csproj",
+  "projectFilePath": "D:\\GITHUB\\Repos\\AAEMU.CashShopBuilder\\AAEmu.CashShopAdmin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sarge\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\Sarge\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",

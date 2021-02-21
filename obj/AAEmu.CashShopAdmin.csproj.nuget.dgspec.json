@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AAEmu.CashShopAdmin\\AAEmu.CashShopAdmin\\AAEmu.CashShopAdmin.csproj": {}
+    "D:\\GITHUB\\Repos\\AAEMU.CashShopBuilder\\AAEmu.CashShopAdmin.csproj": {}
   },
   "projects": {
-    "C:\\AAEmu.CashShopAdmin\\AAEmu.CashShopAdmin\\AAEmu.CashShopAdmin.csproj": {
+    "D:\\GITHUB\\Repos\\AAEMU.CashShopBuilder\\AAEmu.CashShopAdmin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AAEmu.CashShopAdmin\\AAEmu.CashShopAdmin\\AAEmu.CashShopAdmin.csproj",
+        "projectUniqueName": "D:\\GITHUB\\Repos\\AAEMU.CashShopBuilder\\AAEmu.CashShopAdmin.csproj",
         "projectName": "AAEmu.CashShopAdmin",
-        "projectPath": "C:\\AAEmu.CashShopAdmin\\AAEmu.CashShopAdmin\\AAEmu.CashShopAdmin.csproj",
+        "projectPath": "D:\\GITHUB\\Repos\\AAEMU.CashShopBuilder\\AAEmu.CashShopAdmin.csproj",
         "packagesPath": "C:\\Users\\Sarge\\.nuget\\packages\\",
-        "outputPath": "C:\\AAEmu.CashShopAdmin\\AAEmu.CashShopAdmin\\obj\\",
+        "outputPath": "D:\\GITHUB\\Repos\\AAEMU.CashShopBuilder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sarge\\AppData\\Roaming\\NuGet\\NuGet.Config",
