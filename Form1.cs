@@ -131,7 +131,7 @@ namespace AAEmu.CashShopAdmin
 
 
                 //populate tabs and sub tabs
-                //maintab
+                //maintab 
                 if (items.main_tab.ToString() == "1" )
                 {
                     //subtabs
@@ -213,6 +213,118 @@ namespace AAEmu.CashShopAdmin
 
                         //Add to dictionary for later work
                         WorkingItemsList.Add(items.cash_name, items);
+                    }
+                }// MAIN TAB END 
+                //BEGIN GENERAL TAB
+                if (items.main_tab.ToString() == "2")
+                {
+                    //subtabs
+                    if (items.sub_tab.ToString() == "1")
+                    {
+                        //treeView1.TopNode = 
+
+                        //build string
+                        string BuiltItem = items.cash_name + Environment.NewLine;
+
+                   
+                        //Add to dictionary for later work
+                        if (WorkingItemsList.ContainsKey(items.cash_name) == false)
+                        {
+                            WorkingItemsList.Add(items.cash_name, items);
+                            //add to list
+                            listBox8.Items.Add(BuiltItem);
+                        }
+                      
+                        //textBox1.AppendText("[Name: " + items.cash_name + "]"  + " [Item ID:" + items.item_template_id + "] " + Environment.NewLine);
+                    }
+                    else if (items.sub_tab.ToString() == "2") //subtab 2 of 7
+                    {
+
+                        //build string
+                        string BuiltItem = items.cash_name + " [Item ID: " + items.item_template_id + " ] " + Environment.NewLine;
+
+
+                        //add to list
+                        listBox9.Items.Add(BuiltItem);
+                        //Add to dictionary for later work
+                        if (WorkingItemsList.ContainsKey(items.cash_name) == false)
+                        {
+                            WorkingItemsList.Add(items.cash_name, items);
+                        }
+
+
+                        
+                       
+                    }
+                    else if (items.sub_tab.ToString() == "3") //subtab 3 of 7
+                    {
+                        //build string
+                        string BuiltItem = items.cash_name + " [Item ID: " + items.item_template_id + " ] " + Environment.NewLine;
+
+                        //add to list
+                        listBox10.Items.Add(BuiltItem);
+
+                        //Add to dictionary for later work
+                        if (WorkingItemsList.ContainsKey(items.cash_name) == false)
+                        {
+                            WorkingItemsList.Add(items.cash_name, items);
+                        }
+                    }
+                    else if (items.sub_tab.ToString() == "4") //subtab 4 of 7
+                    {
+                        //build string
+                        string BuiltItem = items.cash_name + " [Item ID: " + items.item_template_id + " ] " + Environment.NewLine;
+
+                        //add to list
+                        listBox11.Items.Add(BuiltItem);
+
+                        //Add to dictionary for later work
+                        if (WorkingItemsList.ContainsKey(items.cash_name) == false)
+                        {
+                            WorkingItemsList.Add(items.cash_name, items);
+                        }
+                    }
+                    else if (items.sub_tab.ToString() == "5") //subtab 5 of 7
+                    {
+                        //build string
+                        string BuiltItem = items.cash_name + " [Item ID: " + items.item_template_id + " ] " + Environment.NewLine;
+
+                        //add to list
+                        listBox12.Items.Add(BuiltItem);
+
+                        //Add to dictionary for later work
+                        if (WorkingItemsList.ContainsKey(items.cash_name) == false)
+                        {
+                            WorkingItemsList.Add(items.cash_name, items);
+                        }
+                    }
+                    else if (items.sub_tab.ToString() == "6") //subtab 6 of 7
+                    {
+                        //build string
+                        string BuiltItem = items.cash_name + " [Item ID: " + items.item_template_id + " ] " + Environment.NewLine;
+
+                        //add to list
+                        listBox13.Items.Add(BuiltItem);
+
+                        //Add to dictionary for later work
+                        if (WorkingItemsList.ContainsKey(items.cash_name) == false)
+                        {
+                            WorkingItemsList.Add(items.cash_name, items);
+                        }
+                    }
+                    else if (items.sub_tab.ToString() == "7") //subtab 7 of 7
+                    {
+                        //build string
+                        string BuiltItem = items.cash_name + " [Item ID: " + items.item_template_id + " ] " + Environment.NewLine;
+
+                        //add to list
+                        listBox14.Items.Add(BuiltItem);
+
+                        //Add to dictionary for later work
+                       if (WorkingItemsList.ContainsKey(items.cash_name) == false)
+                        {
+                            WorkingItemsList.Add(items.cash_name, items);
+                        }
                     }
                 }
 
@@ -1039,6 +1151,11 @@ namespace AAEmu.CashShopAdmin
 
             }
             //listBox3.Items.Add(xItem.cash_name);
+        }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

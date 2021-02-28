@@ -176,11 +176,6 @@ namespace AAEmu.CashShopAdmin
             this.label36 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.listBox7 = new System.Windows.Forms.ListBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
             this.tabControl3 = new System.Windows.Forms.TabControl();
@@ -307,6 +302,11 @@ namespace AAEmu.CashShopAdmin
             this.tabPage18 = new System.Windows.Forms.TabPage();
             this.tabPage19 = new System.Windows.Forms.TabPage();
             this.tabPage20 = new System.Windows.Forms.TabPage();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -326,8 +326,6 @@ namespace AAEmu.CashShopAdmin
             this.groupBox7.SuspendLayout();
             this.tabPage9.SuspendLayout();
             this.groupBox8.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tabControl3.SuspendLayout();
@@ -345,6 +343,8 @@ namespace AAEmu.CashShopAdmin
             this.groupBox14.SuspendLayout();
             this.tabPage16.SuspendLayout();
             this.groupBox15.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -544,6 +544,7 @@ namespace AAEmu.CashShopAdmin
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(487, 663);
             this.tabControl1.TabIndex = 1;
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
             // tabPage1
             // 
@@ -560,7 +561,7 @@ namespace AAEmu.CashShopAdmin
             // 
             this.panel1.BackColor = System.Drawing.Color.Gray;
             this.panel1.Controls.Add(this.tabControl2);
-            this.panel1.Location = new System.Drawing.Point(6, 3);
+            this.panel1.Location = new System.Drawing.Point(0, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(471, 608);
             this.panel1.TabIndex = 0;
@@ -862,7 +863,7 @@ namespace AAEmu.CashShopAdmin
             this.tabPage6.Controls.Add(this.listBox2);
             this.tabPage6.Location = new System.Drawing.Point(4, 24);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(454, 537);
+            this.tabPage6.Size = new System.Drawing.Size(454, 539);
             this.tabPage6.TabIndex = 3;
             this.tabPage6.Text = "Featured";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -1134,7 +1135,7 @@ namespace AAEmu.CashShopAdmin
             this.tabPage3.Controls.Add(this.listBox3);
             this.tabPage3.Location = new System.Drawing.Point(4, 24);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(454, 537);
+            this.tabPage3.Size = new System.Drawing.Size(454, 539);
             this.tabPage3.TabIndex = 7;
             this.tabPage3.Text = "New";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -1406,7 +1407,7 @@ namespace AAEmu.CashShopAdmin
             this.tabPage4.Controls.Add(this.listBox4);
             this.tabPage4.Location = new System.Drawing.Point(4, 24);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(454, 537);
+            this.tabPage4.Size = new System.Drawing.Size(454, 539);
             this.tabPage4.TabIndex = 8;
             this.tabPage4.Text = "All";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -1678,7 +1679,7 @@ namespace AAEmu.CashShopAdmin
             this.tabPage7.Controls.Add(this.listBox5);
             this.tabPage7.Location = new System.Drawing.Point(4, 24);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(454, 537);
+            this.tabPage7.Size = new System.Drawing.Size(454, 539);
             this.tabPage7.TabIndex = 4;
             this.tabPage7.Text = "submenu_1_5";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -1950,7 +1951,7 @@ namespace AAEmu.CashShopAdmin
             this.tabPage8.Controls.Add(this.listBox6);
             this.tabPage8.Location = new System.Drawing.Point(4, 24);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(454, 537);
+            this.tabPage8.Size = new System.Drawing.Size(454, 539);
             this.tabPage8.TabIndex = 5;
             this.tabPage8.Text = "submenu_1_6";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -2223,7 +2224,7 @@ namespace AAEmu.CashShopAdmin
             this.tabPage9.Controls.Add(this.listBox7);
             this.tabPage9.Location = new System.Drawing.Point(4, 24);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(454, 537);
+            this.tabPage9.Size = new System.Drawing.Size(454, 539);
             this.tabPage9.TabIndex = 6;
             this.tabPage9.Text = "submenu_1_7";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -2489,57 +2490,6 @@ namespace AAEmu.CashShopAdmin
             this.listBox7.Size = new System.Drawing.Size(448, 304);
             this.listBox7.TabIndex = 12;
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.panel2);
-            this.groupBox1.Location = new System.Drawing.Point(978, 27);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(206, 112);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Raw";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Gray;
-            this.panel2.Controls.Add(this.richTextBox1);
-            this.panel2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel2.Location = new System.Drawing.Point(6, 32);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(566, 531);
-            this.panel2.TabIndex = 0;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.Color.DimGray;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.DetectUrls = false;
-            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBox1.ForeColor = System.Drawing.Color.Yellow;
-            this.richTextBox1.Location = new System.Drawing.Point(5, -39);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedBoth;
-            this.richTextBox1.Size = new System.Drawing.Size(494, 582);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
-            this.richTextBox1.WordWrap = false;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(7, 232);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(241, 23);
-            this.textBox2.TabIndex = 3;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 214);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 15);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Item name";
-            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.panel3);
@@ -2555,9 +2505,9 @@ namespace AAEmu.CashShopAdmin
             // 
             this.panel3.BackColor = System.Drawing.Color.Gray;
             this.panel3.Controls.Add(this.tabControl3);
-            this.panel3.Location = new System.Drawing.Point(4, 13);
+            this.panel3.Location = new System.Drawing.Point(0, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(471, 608);
+            this.panel3.Size = new System.Drawing.Size(474, 608);
             this.panel3.TabIndex = 1;
             // 
             // tabControl3
@@ -4501,6 +4451,57 @@ namespace AAEmu.CashShopAdmin
             this.tabPage20.Text = "Loyalty";
             this.tabPage20.UseVisualStyleBackColor = true;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.panel2);
+            this.groupBox1.Location = new System.Drawing.Point(978, 27);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(206, 112);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Raw";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Gray;
+            this.panel2.Controls.Add(this.richTextBox1);
+            this.panel2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel2.Location = new System.Drawing.Point(6, 32);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(566, 531);
+            this.panel2.TabIndex = 0;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.DimGray;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.DetectUrls = false;
+            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.richTextBox1.ForeColor = System.Drawing.Color.Yellow;
+            this.richTextBox1.Location = new System.Drawing.Point(5, -39);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedBoth;
+            this.richTextBox1.Size = new System.Drawing.Size(494, 582);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            this.richTextBox1.WordWrap = false;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(7, 232);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(241, 23);
+            this.textBox2.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(7, 214);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(64, 15);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Item name";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -4540,8 +4541,6 @@ namespace AAEmu.CashShopAdmin
             this.tabPage9.ResumeLayout(false);
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
@@ -4566,6 +4565,8 @@ namespace AAEmu.CashShopAdmin
             this.tabPage16.ResumeLayout(false);
             this.groupBox15.ResumeLayout(false);
             this.groupBox15.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
