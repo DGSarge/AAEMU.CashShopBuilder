@@ -244,12 +244,13 @@ namespace AAEmu.CashShopAdmin
                         string BuiltItem = items.cash_name + " [Item ID: " + items.item_template_id + " ] " + Environment.NewLine;
 
 
-                        //add to list
-                        listBox9.Items.Add(BuiltItem);
+                     
                         //Add to dictionary for later work
                         if (WorkingItemsList.ContainsKey(items.cash_name) == false)
                         {
                             WorkingItemsList.Add(items.cash_name, items);
+                            //add to list
+                            listBox9.Items.Add(BuiltItem);
                         }
 
 
@@ -261,13 +262,14 @@ namespace AAEmu.CashShopAdmin
                         //build string
                         string BuiltItem = items.cash_name + " [Item ID: " + items.item_template_id + " ] " + Environment.NewLine;
 
-                        //add to list
-                        listBox10.Items.Add(BuiltItem);
+                       
 
                         //Add to dictionary for later work
                         if (WorkingItemsList.ContainsKey(items.cash_name) == false)
                         {
                             WorkingItemsList.Add(items.cash_name, items);
+                            //add to list
+                            listBox10.Items.Add(BuiltItem);
                         }
                     }
                     else if (items.sub_tab.ToString() == "4") //subtab 4 of 7
@@ -275,13 +277,14 @@ namespace AAEmu.CashShopAdmin
                         //build string
                         string BuiltItem = items.cash_name + " [Item ID: " + items.item_template_id + " ] " + Environment.NewLine;
 
-                        //add to list
-                        listBox11.Items.Add(BuiltItem);
+                      
 
                         //Add to dictionary for later work
                         if (WorkingItemsList.ContainsKey(items.cash_name) == false)
                         {
                             WorkingItemsList.Add(items.cash_name, items);
+                            //add to list
+                            listBox11.Items.Add(BuiltItem);
                         }
                     }
                     else if (items.sub_tab.ToString() == "5") //subtab 5 of 7
@@ -289,13 +292,14 @@ namespace AAEmu.CashShopAdmin
                         //build string
                         string BuiltItem = items.cash_name + " [Item ID: " + items.item_template_id + " ] " + Environment.NewLine;
 
-                        //add to list
-                        listBox12.Items.Add(BuiltItem);
 
                         //Add to dictionary for later work
                         if (WorkingItemsList.ContainsKey(items.cash_name) == false)
                         {
                             WorkingItemsList.Add(items.cash_name, items);
+
+                            //add to list
+                            listBox12.Items.Add(BuiltItem);
                         }
                     }
                     else if (items.sub_tab.ToString() == "6") //subtab 6 of 7
@@ -303,13 +307,14 @@ namespace AAEmu.CashShopAdmin
                         //build string
                         string BuiltItem = items.cash_name + " [Item ID: " + items.item_template_id + " ] " + Environment.NewLine;
 
-                        //add to list
-                        listBox13.Items.Add(BuiltItem);
+                      
 
                         //Add to dictionary for later work
                         if (WorkingItemsList.ContainsKey(items.cash_name) == false)
                         {
                             WorkingItemsList.Add(items.cash_name, items);
+                            //add to list
+                            listBox13.Items.Add(BuiltItem);
                         }
                     }
                     else if (items.sub_tab.ToString() == "7") //subtab 7 of 7
@@ -317,13 +322,14 @@ namespace AAEmu.CashShopAdmin
                         //build string
                         string BuiltItem = items.cash_name + " [Item ID: " + items.item_template_id + " ] " + Environment.NewLine;
 
-                        //add to list
-                        listBox14.Items.Add(BuiltItem);
+                      
 
                         //Add to dictionary for later work
                        if (WorkingItemsList.ContainsKey(items.cash_name) == false)
                         {
                             WorkingItemsList.Add(items.cash_name, items);
+                            //add to list
+                            listBox14.Items.Add(BuiltItem);
                         }
                     }
                 }
@@ -478,6 +484,15 @@ namespace AAEmu.CashShopAdmin
 
         private void button7_Click(object sender, EventArgs e)
         {
+            //\\____----____-____-_____-__-____-----___-___----___----___-----____----______------_____------_________----------____________-----------____________----------_______-----------_____
+            //\\____----____-____-_____-__-____-----___-___----___----___-----____----______------_____------_________----------____________-----------____________----------_______-----------_____
+            //\\____----____-____-_____-__-____-----___-___----___----___-----____----______------_____------_________----------____________-----------____________----------_______-----------_____
+            //\\____----____-____-_____-__-____-----___-___----___----___-----____----______------_____------_________----------____________-----------____________----------_______-----------_____
+            //\\____----____-____-_____-__-____-----___-___----___----___-----____----______------_____------_________----------____________-----------____________----------_______-----------_____
+            //\\____----____-____-_____-__-____-----___-___----___----___-----____----______------_____------_________----------____________-----------____________----------_______-----------_____
+            //\\____----____-____-_____-__-____-----___-___----___----___-----____----______------_____------_________----------____________-----------____________----------_______-----------_____
+            //\\____----____-____-_____-__-____-----___-___----___----___-----____----______------_____------_________----------____________-----------____________----------_______-----------_____
+
 
             // Remove from Objects list
             foreach (var obj in _ShopItems)
@@ -510,33 +525,297 @@ namespace AAEmu.CashShopAdmin
         
         private void button8_Click(object sender, EventArgs e)
         {
+            // AddItem(string itemName, string itemID, string price, string stock, string discount, string minLVL, string maxLVL, string mainTab, string subTab)
+            AddItem(textBox1.Text, textBox3.Text, textBox4.Text, textBox5.Text, textBox6.Text, comboBox1.GetItemText(comboBox1.SelectedItem), comboBox2.GetItemText(comboBox2.SelectedItem), "1", "1");
+
+
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            // AddItem(string itemName, string itemID, string price, string stock, string discount, string minLVL, string maxLVL, string mainTab, string subTab)
+            AddItem(textBox11.Text, textBox10.Text, textBox9.Text, textBox8.Text, textBox7.Text, comboBox4.GetItemText(comboBox4.SelectedItem), comboBox3.GetItemText(comboBox3.SelectedItem), "1", "2");
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            // AddItem(string itemName, string itemID, string price, string stock, string discount, string minLVL, string maxLVL, string mainTab, string subTab)
+            AddItem(textBox16.Text, textBox15.Text, textBox14.Text, textBox13.Text, textBox12.Text, comboBox6.GetItemText(comboBox6.SelectedItem), comboBox5.GetItemText(comboBox5.SelectedItem), "1", "3");
+
+        }
+
+        private void tabControl2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+             AddItem(textBox21.Text, textBox20.Text, textBox19.Text, textBox18.Text, textBox17.Text, comboBox8.GetItemText(comboBox8.SelectedItem), comboBox7.GetItemText(comboBox7.SelectedItem), "1", "4");
+         
+        }
+
+        private void tabPage4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+
+            AddItem(textBox26.Text, textBox25.Text, textBox24.Text, textBox23.Text, textBox22.Text, comboBox10.GetItemText(comboBox10.SelectedItem), comboBox9.GetItemText(comboBox9.SelectedItem), "1", "5");
+
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+             AddItem(textBox31.Text, textBox30.Text, textBox29.Text, textBox28.Text, textBox27.Text, comboBox12.GetItemText(comboBox12.SelectedItem), comboBox11.GetItemText(comboBox11.SelectedItem), "1", "6");
+
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+             AddItem(textBox36.Text, textBox35.Text, textBox34.Text, textBox33.Text, textBox32.Text, comboBox14.GetItemText(comboBox14.SelectedItem), comboBox13.GetItemText(comboBox13.SelectedItem), "1", "7");
+
+        }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+          //MAINTAB/2
+
+            // Remove from Objects list
+            foreach (var obj in _ShopItems)
+            {
+                if (listBox8.GetItemText(listBox8.SelectedItem).Contains(obj.cash_name))
+                {
+                    MessageBox.Show("Removed: " + obj.cash_name);
+                    _ShopItems.Remove(obj);
+                    goto B8;
+                }
+            }
+
+        B8:
+            //Remove From WOrkingList Dictionary
+            WorkingItemsList.Remove(listBox8.GetItemText(listBox8.SelectedItem));
+
+
+            listBox8.Items.RemoveAt(listBox8.SelectedIndex);
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            //MAINTAB/2
+
+            // Remove from Objects list
+            foreach (var obj in _ShopItems)
+            {
+                if (listBox9.GetItemText(listBox9.SelectedItem).Contains(obj.cash_name))
+                {
+                    MessageBox.Show("Removed: " + obj.cash_name);
+                    _ShopItems.Remove(obj);
+                    goto B8;
+                }
+            }
+
+        B8:
+            //Remove From WOrkingList Dictionary
+            WorkingItemsList.Remove(listBox9.GetItemText(listBox9.SelectedItem));
+
+
+            listBox9.Items.RemoveAt(listBox9.SelectedIndex);
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            //MAINTAB/2
+
+            // Remove from Objects list
+            foreach (var obj in _ShopItems)
+            {
+                if (listBox10.GetItemText(listBox10.SelectedItem).Contains(obj.cash_name))
+                {
+                    MessageBox.Show("Removed: " + obj.cash_name);
+                    _ShopItems.Remove(obj);
+                    goto B8;
+                }
+            }
+
+        B8:
+            //Remove From WOrkingList Dictionary
+            WorkingItemsList.Remove(listBox10.GetItemText(listBox10.SelectedItem));
+
+
+            listBox10.Items.RemoveAt(listBox10.SelectedIndex);
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            //MAINTAB/2
+
+            // Remove from Objects list
+            foreach (var obj in _ShopItems)
+            {
+                if (listBox11.GetItemText(listBox11.SelectedItem).Contains(obj.cash_name))
+                {
+                    MessageBox.Show("Removed: " + obj.cash_name);
+                    _ShopItems.Remove(obj);
+                    goto B8;
+                }
+            }
+
+        B8:
+            //Remove From WOrkingList Dictionary
+            WorkingItemsList.Remove(listBox11.GetItemText(listBox11.SelectedItem));
+
+
+            listBox11.Items.RemoveAt(listBox11.SelectedIndex);
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+             //MAINTAB/2
+
+            // Remove from Objects list
+            foreach (var obj in _ShopItems)
+            {
+                if (listBox12.GetItemText(listBox12.SelectedItem).Contains(obj.cash_name))
+                {
+                    MessageBox.Show("Removed: " + obj.cash_name);
+                    _ShopItems.Remove(obj);
+                    goto B8;
+                }
+            }
+
+        B8:
+            //Remove From WOrkingList Dictionary
+            WorkingItemsList.Remove(listBox12.GetItemText(listBox12.SelectedItem));
+
+
+            listBox12.Items.RemoveAt(listBox12.SelectedIndex);
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            //MAINTAB/2
+
+            // Remove from Objects list
+            foreach (var obj in _ShopItems)
+            {
+                if (listBox13.GetItemText(listBox13.SelectedItem).Contains(obj.cash_name))
+                {
+                    MessageBox.Show("Removed: " + obj.cash_name);
+                    _ShopItems.Remove(obj);
+                    goto B8;
+                }
+            }
+
+        B8:
+            //Remove From WOrkingList Dictionary
+            WorkingItemsList.Remove(listBox13.GetItemText(listBox13.SelectedItem));
+
+
+            listBox13.Items.RemoveAt(listBox13.SelectedIndex);
+        }
+
+        private void tabControl3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            //MAINTAB/2
+
+            // Remove from Objects list
+            foreach (var obj in _ShopItems)
+            {
+                if (listBox14.GetItemText(listBox14.SelectedItem).Contains(obj.cash_name))
+                {
+                    MessageBox.Show("Removed: " + obj.cash_name);
+                    _ShopItems.Remove(obj);
+                    goto B8;
+                }
+            }
+
+        B8:
+            //Remove From WOrkingList Dictionary
+            WorkingItemsList.Remove(listBox14.GetItemText(listBox14.SelectedItem));
+
+
+            listBox14.Items.RemoveAt(listBox14.SelectedIndex);
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            // AddItem(string itemName, string itemID, string price, string stock, string discount, string minLVL, string maxLVL, string mainTab, string subTab)
+            AddItem(textBox41.Text, textBox40.Text, textBox39.Text, textBox38.Text,
+                    textBox37.Text, comboBox15.GetItemText(comboBox15.SelectedItem),
+                    comboBox16.GetItemText(comboBox16.SelectedItem), "2", "1");
+          
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            AddItem(textBox46.Text, textBox45.Text, textBox43.Text, textBox44.Text, textBox42.Text, comboBox17.GetItemText(comboBox17.SelectedItem), comboBox18.GetItemText(comboBox18.SelectedItem), "2", "2");
+            
+         
+        }
+
+        private void textBox45_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void AddItem(string itemName, string itemID, string price, string stock, string discount, string minLVL, string maxLVL, string mainTab, string subTab ) 
+        {
+
+            //MainTab/2
+
             cashShopItemTemplate xItem = new cashShopItemTemplate();
             //split up line and add to item object
 
-            
-           //sequential
+
+            //sequential
             xItem.Id = ID_Count;
             ID_Count++;
 
             //randomGen
-            var num = new Random();          
+            var num = new Random();
             xItem.uniq_id = num.Next(77770000);
-                        
-            xItem.cash_name = textBox1.Text;
+
+            xItem.cash_name = itemName;
 
 
             // check for main tab and set 
             var maintab = tabControl1.SelectedTab.Text;
             var subtab = tabControl2.SelectedTab.Text;
-           //hard coding all tabs becuase fuck nesting an if 20 sumthing times
-            xItem.main_tab = byte.Parse("1");
             //hard coding all tabs becuase fuck nesting an if 20 sumthing times
-            xItem.sub_tab = byte.Parse("1");
-                            
-            xItem.level_min = byte.Parse(comboBox1.GetItemText(comboBox1.SelectedItem));
-            xItem.level_max = byte.Parse(comboBox2.GetItemText(comboBox2.SelectedItem));
-             
-            xItem.item_template_id = int.Parse(textBox3.Text);
+            xItem.main_tab = byte.Parse(mainTab);
+            //hard coding all tabs becuase fuck nesting an if 20 sumthing times
+            xItem.sub_tab = byte.Parse(subTab);
+
+            xItem.level_min = byte.Parse(minLVL);
+            xItem.level_max = byte.Parse(maxLVL);
+
+            xItem.item_template_id = int.Parse(itemID);//idtxtbox
 
 
             xItem.is_sell = byte.Parse("0");
@@ -551,8 +830,8 @@ namespace AAEmu.CashShopAdmin
             xItem.end_date = "2055-06-16 14:10:12";
 
             xItem.type = byte.Parse("0");
-            xItem.price = int.Parse(textBox4.Text);
-            xItem.remain = int.Parse(textBox5.Text);
+            xItem.price = int.Parse(price);
+            xItem.remain = int.Parse(stock);
 
             xItem.bonus_type = int.Parse("0");
             xItem.bouns_count = int.Parse("0");
@@ -562,7 +841,7 @@ namespace AAEmu.CashShopAdmin
             xItem.default_flag = byte.Parse("0");
             xItem.event_type = byte.Parse("0");
             xItem.event_date = "0001-01-01 00:00:00";
-            xItem.dis_price = int.Parse(textBox6.Text);
+            xItem.dis_price = int.Parse(discount);
 
 
             //add item to list, dict and listbox needs checks for dups
@@ -600,561 +879,6 @@ namespace AAEmu.CashShopAdmin
             //_ShopItems.Add(xItem);
             //WorkingItemsList.Add(xItem.cash_name, xItem);
             //listBox1.Items.Add(xItem.cash_name);
-        }
-
-        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
-        {
-
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            cashShopItemTemplate xItem = new cashShopItemTemplate();
-            //split up line and add to item object
-
-
-            //sequential
-            xItem.Id = ID_Count;
-            ID_Count++;
-
-            //randomGen
-            var num = new Random();
-            xItem.uniq_id = num.Next(77770000);
-
-            xItem.cash_name = textBox11.Text;
-
-
-            // check for main tab and set 
-            var maintab = tabControl1.SelectedTab.Text;
-            var subtab = tabControl2.SelectedTab.Text;
-            //hard coding all tabs becuase fuck nesting an if 20 sumthing times
-            xItem.main_tab = byte.Parse("1");
-            //hard coding all tabs becuase fuck nesting an if 20 sumthing times
-            xItem.sub_tab = byte.Parse("2");
-
-            xItem.level_min = byte.Parse(comboBox4.GetItemText(comboBox4.SelectedItem));
-            xItem.level_max = byte.Parse(comboBox3.GetItemText(comboBox3.SelectedItem));
-
-            xItem.item_template_id = int.Parse(textBox10.Text);
-
-
-            xItem.is_sell = byte.Parse("0");
-            xItem.is_hidden = byte.Parse("0");
-            xItem.limit_type = byte.Parse("0");
-            xItem.buy_count = int.Parse("0");
-            xItem.buy_type = byte.Parse("0");
-            xItem.buy_id = int.Parse("0");
-
-            //hardcoded for now , future plans for UI date time picker
-            xItem.start_date = "2021-01-01 14:10:08";    // .Parse((DateTime)col[14]);
-            xItem.end_date = "2055-06-16 14:10:12";
-
-            xItem.type = byte.Parse("0");
-            xItem.price = int.Parse(textBox9.Text);
-            xItem.remain = int.Parse(textBox8.Text);
-
-            xItem.bonus_type = int.Parse("0");
-            xItem.bouns_count = int.Parse("0");
-            xItem.cmd_ui = byte.Parse("0");
-            xItem.item_count = int.Parse("0");
-            xItem.select_type = byte.Parse("0");
-            xItem.default_flag = byte.Parse("0");
-            xItem.event_type = byte.Parse("0");
-            xItem.event_date = "0001-01-01 00:00:00";
-            xItem.dis_price = int.Parse(textBox7.Text);
-
-
-            //add item to list, dict and listbox needs checks for dups
-            if (_ShopItems.Contains(xItem) == false)
-            {
-                _ShopItems.Add(xItem);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in List");
-            }
-            //_ShopItems.Add(xItem);
-            if (WorkingItemsList.ContainsKey(xItem.cash_name) == false)
-            {
-                WorkingItemsList.Add(xItem.cash_name, xItem);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in Dictionary");
-            }
-            //WorkingItemsList.Add(xItem.cash_name, xItem);
-
-            if (listBox2.Items.Contains(xItem.cash_name) == false)
-            {
-                listBox2.Items.Add(xItem.cash_name);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in ListBox");
-
-            }
-            //listBox3.Items.Add(xItem.cash_name);
-            ////add item to list, dict and listbox
-            //_ShopItems.Add(xItem);
-            //WorkingItemsList.Add(xItem.cash_name, xItem);
-            //listBox2.Items.Add(xItem.cash_name);
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            cashShopItemTemplate xItem = new cashShopItemTemplate();
-            //split up line and add to item object
-
-
-            //sequential
-            xItem.Id = ID_Count;
-            ID_Count++;
-
-            //randomGen
-            var num = new Random();
-            xItem.uniq_id = num.Next(77770000);
-
-            xItem.cash_name = textBox16.Text;
-
-
-            // check for main tab and set 
-            var maintab = tabControl1.SelectedTab.Text;
-            var subtab = tabControl2.SelectedTab.Text;
-            //hard coding all tabs becuase fuck nesting an if 20 sumthing times
-            xItem.main_tab = byte.Parse("1");
-            //hard coding all tabs becuase fuck nesting an if 20 sumthing times
-            xItem.sub_tab = byte.Parse("3");
-
-            xItem.level_min = byte.Parse(comboBox6.GetItemText(comboBox6.SelectedItem));
-            xItem.level_max = byte.Parse(comboBox5.GetItemText(comboBox5.SelectedItem));
-
-            xItem.item_template_id = int.Parse(textBox15.Text);
-
-
-            xItem.is_sell = byte.Parse("0");
-            xItem.is_hidden = byte.Parse("0");
-            xItem.limit_type = byte.Parse("0");
-            xItem.buy_count = int.Parse("0");
-            xItem.buy_type = byte.Parse("0");
-            xItem.buy_id = int.Parse("0");
-
-            //hardcoded for now , future plans for UI date time picker
-            xItem.start_date = "2021-01-01 14:10:08";    // .Parse((DateTime)col[14]);
-            xItem.end_date = "2055-06-16 14:10:12";
-
-            xItem.type = byte.Parse("0");
-            xItem.price = int.Parse(textBox14.Text);
-            xItem.remain = int.Parse(textBox13.Text);
-
-            xItem.bonus_type = int.Parse("0");
-            xItem.bouns_count = int.Parse("0");
-            xItem.cmd_ui = byte.Parse("0");
-            xItem.item_count = int.Parse("0");
-            xItem.select_type = byte.Parse("0");
-            xItem.default_flag = byte.Parse("0");
-            xItem.event_type = byte.Parse("0");
-            xItem.event_date = "0001-01-01 00:00:00";
-            xItem.dis_price = int.Parse(textBox12.Text);
-
-
-            //add item to list, dict and listbox needs checks for dups
-            if (_ShopItems.Contains(xItem) == false)
-            {
-                _ShopItems.Add(xItem);
-            } else 
-            {
-                MessageBox.Show("Error: "+ xItem.cash_name +" already in List"); 
-            }
-            //_ShopItems.Add(xItem);
-            if (WorkingItemsList.ContainsKey(xItem.cash_name) == false)
-            {
-                WorkingItemsList.Add(xItem.cash_name, xItem);
-            } else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in Dictionary");
-            }
-            //WorkingItemsList.Add(xItem.cash_name, xItem);
-
-            if (listBox3.Items.Contains(xItem.cash_name) == false)
-            {
-                listBox3.Items.Add(xItem.cash_name);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in ListBox");
-
-            }
-            //listBox3.Items.Add(xItem.cash_name);
-        }
-
-        private void tabControl2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-            cashShopItemTemplate xItem = new cashShopItemTemplate();
-            //split up line and add to item object
-
-
-            //sequential
-            xItem.Id = ID_Count;
-            ID_Count++;
-
-            //randomGen
-            var num = new Random();
-            xItem.uniq_id = num.Next(77770000);
-
-            xItem.cash_name = textBox21.Text;
-
-
-            // check for main tab and set 
-            var maintab = tabControl1.SelectedTab.Text;
-            var subtab = tabControl2.SelectedTab.Text;
-            //hard coding all tabs becuase fuck nesting an if 20 sumthing times
-            xItem.main_tab = byte.Parse("1");
-            //hard coding all tabs becuase fuck nesting an if 20 sumthing times
-            xItem.sub_tab = byte.Parse("4");
-
-            xItem.level_min = byte.Parse(comboBox8.GetItemText(comboBox8.SelectedItem));
-            xItem.level_max = byte.Parse(comboBox7.GetItemText(comboBox7.SelectedItem));
-
-            xItem.item_template_id = int.Parse(textBox20.Text);
-
-
-            xItem.is_sell = byte.Parse("0");
-            xItem.is_hidden = byte.Parse("0");
-            xItem.limit_type = byte.Parse("0");
-            xItem.buy_count = int.Parse("0");
-            xItem.buy_type = byte.Parse("0");
-            xItem.buy_id = int.Parse("0");
-
-            //hardcoded for now , future plans for UI date time picker
-            xItem.start_date = "2021-01-01 14:10:08";    // .Parse((DateTime)col[14]);
-            xItem.end_date = "2055-06-16 14:10:12";
-
-            xItem.type = byte.Parse("0");
-            xItem.price = int.Parse(textBox19.Text);
-            xItem.remain = int.Parse(textBox18.Text);
-
-            xItem.bonus_type = int.Parse("0");
-            xItem.bouns_count = int.Parse("0");
-            xItem.cmd_ui = byte.Parse("0");
-            xItem.item_count = int.Parse("0");
-            xItem.select_type = byte.Parse("0");
-            xItem.default_flag = byte.Parse("0");
-            xItem.event_type = byte.Parse("0");
-            xItem.event_date = "0001-01-01 00:00:00";
-            xItem.dis_price = int.Parse(textBox17.Text);
-
-
-            //add item to list, dict and listbox needs checks for dups
-            if (_ShopItems.Contains(xItem) == false)
-            {
-                _ShopItems.Add(xItem);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in List");
-            }
-            //_ShopItems.Add(xItem);
-            if (WorkingItemsList.ContainsKey(xItem.cash_name) == false)
-            {
-                WorkingItemsList.Add(xItem.cash_name, xItem);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in Dictionary");
-            }
-            //WorkingItemsList.Add(xItem.cash_name, xItem);
-
-            if (listBox4.Items.Contains(xItem.cash_name) == false)
-            {
-                listBox4.Items.Add(xItem.cash_name);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in ListBox");
-
-            }
-            //listBox3.Items.Add(xItem.cash_name);
-        }
-
-        private void tabPage4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            cashShopItemTemplate xItem = new cashShopItemTemplate();
-            //split up line and add to item object
-
-
-            //sequential
-            xItem.Id = ID_Count;
-            ID_Count++;
-
-            //randomGen
-            var num = new Random();
-            xItem.uniq_id = num.Next(77770000);
-
-            xItem.cash_name = textBox26.Text;
-
-
-            // check for main tab and set 
-            var maintab = tabControl1.SelectedTab.Text;
-            var subtab = tabControl2.SelectedTab.Text;
-            //hard coding all tabs becuase fuck nesting an if 20 sumthing times
-            xItem.main_tab = byte.Parse("1");
-            //hard coding all tabs becuase fuck nesting an if 20 sumthing times
-            xItem.sub_tab = byte.Parse("5");
-
-            xItem.level_min = byte.Parse(comboBox10.GetItemText(comboBox10.SelectedItem));
-            xItem.level_max = byte.Parse(comboBox9.GetItemText(comboBox9.SelectedItem));
-
-            xItem.item_template_id = int.Parse(textBox25.Text);
-
-
-            xItem.is_sell = byte.Parse("0");
-            xItem.is_hidden = byte.Parse("0");
-            xItem.limit_type = byte.Parse("0");
-            xItem.buy_count = int.Parse("0");
-            xItem.buy_type = byte.Parse("0");
-            xItem.buy_id = int.Parse("0");
-
-            //hardcoded for now , future plans for UI date time picker
-            xItem.start_date = "2021-01-01 14:10:08";    // .Parse((DateTime)col[14]);
-            xItem.end_date = "2055-06-16 14:10:12";
-
-            xItem.type = byte.Parse("0");
-            xItem.price = int.Parse(textBox24.Text);
-            xItem.remain = int.Parse(textBox23.Text);
-
-            xItem.bonus_type = int.Parse("0");
-            xItem.bouns_count = int.Parse("0");
-            xItem.cmd_ui = byte.Parse("0");
-            xItem.item_count = int.Parse("0");
-            xItem.select_type = byte.Parse("0");
-            xItem.default_flag = byte.Parse("0");
-            xItem.event_type = byte.Parse("0");
-            xItem.event_date = "0001-01-01 00:00:00";
-            xItem.dis_price = int.Parse(textBox22.Text);
-
-
-            //add item to list, dict and listbox needs checks for dups
-            if (_ShopItems.Contains(xItem) == false)
-            {
-                _ShopItems.Add(xItem);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in List");
-            }
-            //_ShopItems.Add(xItem);
-            if (WorkingItemsList.ContainsKey(xItem.cash_name) == false)
-            {
-                WorkingItemsList.Add(xItem.cash_name, xItem);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in Dictionary");
-            }
-            //WorkingItemsList.Add(xItem.cash_name, xItem);
-
-            if (listBox5.Items.Contains(xItem.cash_name) == false)
-            {
-                listBox5.Items.Add(xItem.cash_name);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in ListBox");
-
-            }
-            //listBox3.Items.Add(xItem.cash_name);
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
-            cashShopItemTemplate xItem = new cashShopItemTemplate();
-            //split up line and add to item object
-
-
-            //sequential
-            xItem.Id = ID_Count;
-            ID_Count++;
-
-            //randomGen
-            var num = new Random();
-            xItem.uniq_id = num.Next(77770000);
-
-            xItem.cash_name = textBox31.Text;
-
-
-            // check for main tab and set 
-            var maintab = tabControl1.SelectedTab.Text;
-            var subtab = tabControl2.SelectedTab.Text;
-            //hard coding all tabs becuase fuck nesting an if 20 sumthing times
-            xItem.main_tab = byte.Parse("1");
-            //hard coding all tabs becuase fuck nesting an if 20 sumthing times
-            xItem.sub_tab = byte.Parse("6");
-
-            xItem.level_min = byte.Parse(comboBox12.GetItemText(comboBox12.SelectedItem));
-            xItem.level_max = byte.Parse(comboBox11.GetItemText(comboBox11.SelectedItem));
-
-            xItem.item_template_id = int.Parse(textBox30.Text);
-
-
-            xItem.is_sell = byte.Parse("0");
-            xItem.is_hidden = byte.Parse("0");
-            xItem.limit_type = byte.Parse("0");
-            xItem.buy_count = int.Parse("0");
-            xItem.buy_type = byte.Parse("0");
-            xItem.buy_id = int.Parse("0");
-
-            //hardcoded for now , future plans for UI date time picker
-            xItem.start_date = "2021-01-01 14:10:08";    // .Parse((DateTime)col[14]);
-            xItem.end_date = "2055-06-16 14:10:12";
-
-            xItem.type = byte.Parse("0");
-            xItem.price = int.Parse(textBox29.Text);
-            xItem.remain = int.Parse(textBox28.Text);
-
-            xItem.bonus_type = int.Parse("0");
-            xItem.bouns_count = int.Parse("0");
-            xItem.cmd_ui = byte.Parse("0");
-            xItem.item_count = int.Parse("0");
-            xItem.select_type = byte.Parse("0");
-            xItem.default_flag = byte.Parse("0");
-            xItem.event_type = byte.Parse("0");
-            xItem.event_date = "0001-01-01 00:00:00";
-            xItem.dis_price = int.Parse(textBox27.Text);
-
-
-            //add item to list, dict and listbox needs checks for dups
-            if (_ShopItems.Contains(xItem) == false)
-            {
-                _ShopItems.Add(xItem);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in List");
-            }
-            //_ShopItems.Add(xItem);
-            if (WorkingItemsList.ContainsKey(xItem.cash_name) == false)
-            {
-                WorkingItemsList.Add(xItem.cash_name, xItem);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in Dictionary");
-            }
-            //WorkingItemsList.Add(xItem.cash_name, xItem);
-
-            if (listBox6.Items.Contains(xItem.cash_name) == false)
-            {
-                listBox6.Items.Add(xItem.cash_name);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in ListBox");
-
-            }
-            //listBox3.Items.Add(xItem.cash_name);
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-            cashShopItemTemplate xItem = new cashShopItemTemplate();
-            //split up line and add to item object
-
-
-            //sequential
-            xItem.Id = ID_Count;
-            ID_Count++;
-
-            //randomGen
-            var num = new Random();
-            xItem.uniq_id = num.Next(77770000);
-
-            xItem.cash_name = textBox36.Text;
-
-
-            // check for main tab and set 
-            var maintab = tabControl1.SelectedTab.Text;
-            var subtab = tabControl2.SelectedTab.Text;
-            //hard coding all tabs becuase fuck nesting an if 20 sumthing times
-            xItem.main_tab = byte.Parse("1");
-            //hard coding all tabs becuase fuck nesting an if 20 sumthing times
-            xItem.sub_tab = byte.Parse("7");
-
-            xItem.level_min = byte.Parse(comboBox14.GetItemText(comboBox14.SelectedItem));
-            xItem.level_max = byte.Parse(comboBox13.GetItemText(comboBox13.SelectedItem));
-
-            xItem.item_template_id = int.Parse(textBox35.Text);
-
-
-            xItem.is_sell = byte.Parse("0");
-            xItem.is_hidden = byte.Parse("0");
-            xItem.limit_type = byte.Parse("0");
-            xItem.buy_count = int.Parse("0");
-            xItem.buy_type = byte.Parse("0");
-            xItem.buy_id = int.Parse("0");
-
-            //hardcoded for now , future plans for UI date time picker
-            xItem.start_date = "2021-01-01 14:10:08";    // .Parse((DateTime)col[14]);
-            xItem.end_date = "2055-06-16 14:10:12";
-
-            xItem.type = byte.Parse("0");
-            xItem.price = int.Parse(textBox34.Text);
-            xItem.remain = int.Parse(textBox33.Text);
-
-            xItem.bonus_type = int.Parse("0");
-            xItem.bouns_count = int.Parse("0");
-            xItem.cmd_ui = byte.Parse("0");
-            xItem.item_count = int.Parse("0");
-            xItem.select_type = byte.Parse("0");
-            xItem.default_flag = byte.Parse("0");
-            xItem.event_type = byte.Parse("0");
-            xItem.event_date = "0001-01-01 00:00:00";
-            xItem.dis_price = int.Parse(textBox32.Text);
-
-
-            //add item to list, dict and listbox needs checks for dups
-            if (_ShopItems.Contains(xItem) == false)
-            {
-                _ShopItems.Add(xItem);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in List");
-            }
-            //_ShopItems.Add(xItem);
-            if (WorkingItemsList.ContainsKey(xItem.cash_name) == false)
-            {
-                WorkingItemsList.Add(xItem.cash_name, xItem);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in Dictionary");
-            }
-            //WorkingItemsList.Add(xItem.cash_name, xItem);
-
-            if (listBox7.Items.Contains(xItem.cash_name) == false)
-            {
-                listBox7.Items.Add(xItem.cash_name);
-            }
-            else
-            {
-                MessageBox.Show("Error: " + xItem.cash_name + " already in ListBox");
-
-            }
-            //listBox3.Items.Add(xItem.cash_name);
-        }
-
-        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
         }
     }

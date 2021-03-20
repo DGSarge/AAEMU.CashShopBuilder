@@ -2509,6 +2509,7 @@ namespace AAEmu.CashShopAdmin
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(474, 608);
             this.panel3.TabIndex = 1;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // tabControl3
             // 
@@ -2524,6 +2525,7 @@ namespace AAEmu.CashShopAdmin
             this.tabControl3.SelectedIndex = 0;
             this.tabControl3.Size = new System.Drawing.Size(462, 567);
             this.tabControl3.TabIndex = 0;
+            this.tabControl3.SelectedIndexChanged += new System.EventHandler(this.tabControl3_SelectedIndexChanged);
             // 
             // tabPage10
             // 
@@ -2567,6 +2569,7 @@ namespace AAEmu.CashShopAdmin
             this.button15.TabIndex = 14;
             this.button15.Text = "Add";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // textBox37
             // 
@@ -2784,6 +2787,7 @@ namespace AAEmu.CashShopAdmin
             this.button16.TabIndex = 1;
             this.button16.Text = "Delete";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // listBox8
             // 
@@ -2837,6 +2841,7 @@ namespace AAEmu.CashShopAdmin
             this.button17.TabIndex = 14;
             this.button17.Text = "Add";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // textBox42
             // 
@@ -3020,6 +3025,7 @@ namespace AAEmu.CashShopAdmin
             this.textBox45.Name = "textBox45";
             this.textBox45.Size = new System.Drawing.Size(65, 23);
             this.textBox45.TabIndex = 3;
+            this.textBox45.TextChanged += new System.EventHandler(this.textBox45_TextChanged);
             // 
             // label45
             // 
@@ -3054,6 +3060,7 @@ namespace AAEmu.CashShopAdmin
             this.button18.TabIndex = 3;
             this.button18.Text = "Delete";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // listBox9
             // 
@@ -3324,6 +3331,7 @@ namespace AAEmu.CashShopAdmin
             this.button20.TabIndex = 5;
             this.button20.Text = "Delete";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // listBox10
             // 
@@ -3594,6 +3602,7 @@ namespace AAEmu.CashShopAdmin
             this.button22.TabIndex = 7;
             this.button22.Text = "Delete";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // listBox11
             // 
@@ -3864,6 +3873,7 @@ namespace AAEmu.CashShopAdmin
             this.button24.TabIndex = 9;
             this.button24.Text = "Delete";
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // listBox12
             // 
@@ -4134,6 +4144,7 @@ namespace AAEmu.CashShopAdmin
             this.button26.TabIndex = 11;
             this.button26.Text = "Delete";
             this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
             // listBox13
             // 
@@ -4404,6 +4415,7 @@ namespace AAEmu.CashShopAdmin
             this.button28.TabIndex = 13;
             this.button28.Text = "Delete";
             this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
             // 
             // listBox14
             // 
