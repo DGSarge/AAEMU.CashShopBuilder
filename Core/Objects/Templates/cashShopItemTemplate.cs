@@ -45,8 +45,5 @@ namespace AAEmu.CashShopAdmin.Core.Objects.Templates
         public byte event_type { get; set; }
         public string event_date { get; set; }
         public int dis_price { get; set; }
-       
-
-
     }
 }
